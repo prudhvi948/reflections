@@ -1,2 +1,6 @@
 1. When would you want to use a remote repository rather than keeping all your work local?
 Ans: If the repository needs to be shared by other developers then I would push the code to remote repository.
+
+2. Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+Ans: Some users might not need all the code(data) in their local machine because they might not be working on it.
+So it is better if the user has choice to pull data from remote repository rather than making it automatic.
