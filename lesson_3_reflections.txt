@@ -4,3 +4,22 @@ Ans: If the repository needs to be shared by other developers then I would push 
 2. Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 Ans: Some users might not need all the code(data) in their local machine because they might not be working on it.
 So it is better if the user has choice to pull data from remote repository rather than making it automatic.
+
+3. Describe the differences between forks, clones, and branches. When would you use one instead of another?
+Ans: Forks are used to add any public repository to our repository by crediting the original creator.
+Clones are used to copy a repository from a remote or local location without giving any credit to the 
+original creator. Branches are used to work on a different version of the project.
+
+4. What is the benefit of having a copy of the last known state of the remote stored locally?
+Ans: If there are any changes made to the remote we can directly pull it to local repository 
+without needing to merge.
+
+5. How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+Ans: I would use google docs or drop box. In google docs multiple users can simultaneously change
+the data but all changes get automatically updated without leaving a choice to the user. Also both google docs
+ and dropbox doesn't sync when the user is offline.
+
+6. When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+Ans: I would use a separate branch to experiment with something new that may break the main branch. 
+If I do those changes directly in master, the production code might break. On the other side working on 
+only master branch reduces the complexity of branches and merging.
