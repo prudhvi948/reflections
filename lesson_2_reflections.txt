@@ -6,3 +6,23 @@ to make use of version control system.
 2. How is the staging area different from the working directory and the repository? What value do you think it offers?
 Ans: Staging area is an interface between the working directory and repository. It takes different combination of files from the
 working directory and commits only the working directory files into the repository.
+
+3. How can you use the staging area to make sure you have one commit per logical change?
+Ans: We cannot add two different files to the staging area at the same time.
+
+4. What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Ans: Branches are helpful to create a localized version of an application or if there is any other change in the app
+that would be useful for some user base.
+Master branch: Production branch that never breaks
+Other branches: Should be development branches where active development is going on.
+
+5. How do the diagrams help you visualize the branch structure?
+Ans: A picture says 100 words. It clearly shows how many branches are there for the main branch.
+
+6. What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Ans: Merging allows us to get all the changes made in a branch and update them with the main branch. It is easy to see 
+parent of each commit if we represent it with a diagram.
+
+7. What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Ans: Merging manually allows us to resolve conflicts before merging while automatic merging doesn't.
+But automatic merging takes care of different branches and merges them.
